@@ -7,7 +7,7 @@
     </ul>
 
     <hr>
-        <h2>Filter books by ownership</h2>
+        <h2>Filtered Books by Ownership</h2>
         <v-flex xs12 sm6 d-flex>
             <select v-model="holding" standard>
                 <option v-for="filter in filters" v-bind:key="filter">{{filter}}</option>
